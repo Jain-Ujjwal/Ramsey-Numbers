@@ -184,7 +184,7 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     
-    cout << "Input numbers to calculate Ramsey" << endl;
+    cout << "Enter target clique sizes (s and t) to calculate R(s, t):" << endl;
     int s, t;
     if (!(cin >> s >> t)) return 0; // Take target clique sizes from user input
 

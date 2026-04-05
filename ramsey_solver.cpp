@@ -2,7 +2,7 @@
  * Project Name: Ramsey Numbers
  * Description: An optimized Constraint Satisfaction Problem (CSP) solver 
  * designed to find exact Ramsey Numbers R(s, t).
- * * Algorithm: Depth-First Search (DFS) with Backtracking and Forward Checking.
+ * Algorithm: Depth-First Search (DFS) with Backtracking and Forward Checking.
  * Optimizations: 
  * 1. Bitmask Adjacency Matrices for O(1) graph intersections.
  * 2. Dynamic Variable Ordering (Degree Heuristic) to force early failures.

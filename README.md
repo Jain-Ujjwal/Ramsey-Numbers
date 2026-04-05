@@ -1,10 +1,10 @@
-# Ramsey Number CSP Solver 🧠🕸️
+# Ramsey Number CSP Solver
 
 A highly optimized C++ solver designed to find exact mathematical upper bounds for two-color Ramsey Numbers $R(s, t)$. 
 
 This project frames the Ramsey Number problem as a Constraint Satisfaction Problem (CSP). Because the search space for edge colorings grows exponentially (a complete graph $K_n$ has $2^{\binom{n}{2}}$ possible colorings), standard brute-force algorithms fail almost immediately. This solver uses a combination of Depth-First Search (DFS) backtracking, hardware-level bitmasking, and dynamic heuristics to prune structurally impossible branches early.
 
-## 🚀 Technical Optimizations
+## Technical Optimizations
 
 To handle the massive search space, the solver relies on three main AI and architectural optimizations:
 

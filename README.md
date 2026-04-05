@@ -22,7 +22,7 @@ The recursive clique detector uses GCC compiler intrinsics to maximize speed:
 * `__builtin_popcountll(mask)`: Counts the number of set bits (degree of the node) directly at the hardware level.
 * `__builtin_ctzll(mask)`: Counts trailing zeros to instantly find the index of the next available neighbor, skipping iteration over empty bits.
 
-## 💻 How to Build and Run
+##  How to Build and Run
 
 You will need a standard C++ compiler (like GCC or Clang). Since this relies heavily on bitwise operations and recursion, compiling with the `-O3` optimization flag is highly recommended for performance.
 

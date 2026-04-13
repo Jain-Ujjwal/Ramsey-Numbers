@@ -188,6 +188,12 @@ int main() {
     int s, t;
     if (!(cin >> s >> t)) return 0; // Take target clique sizes from user input
 
+    // Trivial Case Check
+    if (s == 1 || t == 1) {
+        cout << "Exact Match: R(" << s << "," << t << ") = 1" << endl;
+        return 0;
+    }
+    
     // Start testing at the smallest theoretically possible graph size
     int start = max(2, max(s, t) - 1);
     int last_ok = -1;
